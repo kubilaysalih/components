@@ -1,5 +1,5 @@
 export interface AvatarProps {
-  size: number
+  size?: number
 }
 
 const Avatar = ({ size = 50 }: AvatarProps) => {
