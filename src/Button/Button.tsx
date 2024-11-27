@@ -3,7 +3,12 @@ export interface ButtonProps {
 }
 
 const Button = ({ title }: ButtonProps) => {
-  return <button>{title}</button>
+  return <button style={{
+    outline: 0,
+    background: 'indianred',
+    padding: 20,
+    border: "1px solid #eaeaea"
+  }}>{title}</button>
 }
 
 export default Button
